@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.google.com	TRUE	/	FALSE	1999999999	1P_JAR	2022-08-11-04
+.google.com	TRUE	/	FALSE	1999999999	AEC	AakniGOso123UJpAZHTCe7PE-bUGB_qqLsZOc82uIma0CvEhpOxxhpiXSlA
+www.google.com	TRUE	/	FALSE	1999999999	SameSite	lax
+.google.com	TRUE	/	FALSE	1999999999	NID	511=haNpXPhpvbCMG2_R8C7q_N2A7jfmoduowfEVnShMqmjubu-sKVzFClaaZLJAvrW2d0sKO7PJGLZgFjRBbwDkCAGgoepmSp_QVTsSGmvdHreeokQwA1-MInhW4wfCs-j-UoNKqQxryFJuzzTXqZPVpX6CYoq0-rFZnQ7tj5k3QmM
+.yandex.ru	TRUE	/	FALSE	1999999999	i	6nHqJcmk5Je42mSN3DwdB+rucIUGODJgij143nVmJ1IjOLW0tcWvxk9NK8cvJFM5ONg7SkmwMkuSgkB/7qcDMQW/FEw=
+wwwpromo.ru	TRUE	/	FALSE	1999999999	SESSa8a3f7951d170ac5a631c5847a5127e9	27dc67b90ef4d0f05c4c1b97547057a4
+

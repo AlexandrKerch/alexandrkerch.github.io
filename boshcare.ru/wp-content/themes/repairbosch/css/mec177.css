@@ -1,0 +1,329 @@
+.fault_me__item {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: calc(100% / 4 - 22.5px);
+    padding: 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1px solid #AEAEAE;
+}
+
+.fault_me__list {
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.fault_me__title a {
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+    line-height: 1.4;
+    color: #3D4E57;
+}
+
+.fault_me__title a:hover {
+    color: #ec1a23;
+}
+
+.fault_me__title {
+    margin-bottom: 13px;
+}
+
+.fault_me__list_x a {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-left: 13px;
+    color: #3D4E57;
+}
+
+
+
+.fault_me__list_x li {
+    margin-left: 3px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.fault_me__list_x li a:before {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    background: currentColor;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+}
+
+.fault_me__list_x {
+    line-height: 1.4;
+}
+
+.fault_me__list_x li:last-child {
+    margin-bottom: 0;
+}
+
+.fault_me__price {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ec1a23;
+}
+
+.fault_me__list_x a:hover {
+    color: #ec1a23;
+}
+
+.more_services__me {
+    justify-content: flex-start;
+    gap: 20px;
+}
+.single-model .slide_cont {
+    background-size: auto 70% !important;
+    background-position: 95% 80% !important;
+}
+
+.troube_tech__list {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    .slide_time {
+        position: static;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+.fault_me__item {
+    width: calc(100% / 3 - 22.5px);
+}
+}
+
+
+@media screen and (max-width:759px) {
+
+    .fault_me__list {
+        gap: 15px;
+    }
+.fault_me__item {
+    width: calc(100% / 2 - 7.5px);
+}
+    .prices_top--me ul {
+    display: flex;
+    align-items: center;
+}
+
+.prices_top--me li {
+    margin-right: 15px;
+}
+
+.prices_top--me {
+    display: flex;
+    align-items: center;
+}
+    .single-model .slide_cont {
+        background-size: auto 55% !important;
+        background-position: 95% 90% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .slide {
+        border-radius: 0;
+    }
+
+    .top_adr {
+        display: none;
+    }
+
+    .top_zz {
+        display: none;
+    }
+
+    .top_tel {
+        margin-left: 20px;
+        padding-left: 25px;
+    }
+
+    .top_tel a {
+        margin-bottom: -5px;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .top_tel span {
+        font-weight: 500;
+        font-size: 11px;
+        color: #000;
+    }
+
+
+    .top_ls {
+        flex: 1;
+        width: auto;
+    }
+
+    .slide_cont {
+        padding: 42px 85px;
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .slide_t {
+        padding: 4px 0 15px;
+        line-height: 1.3;
+        font-size: 22px;
+    }
+
+    .tit:before {
+        top: -7px;
+        left: -13px;
+    }
+
+    .slide_e {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .slide_time {
+        padding: 13px 15px;
+        max-width: 170px;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .slide_time span {
+        display: block;
+        font-size: 16px;
+        margin-top: 2px;
+    }
+
+    .slide_time br {
+        display: none;
+    }
+
+    .slide_time+.btn {
+        padding: 11px 35px;
+        border-radius: 130px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+.prices_top--me .prices_all {
+    display: none;
+}
+
+.prices_top--me li a {
+    font-size: 14px;
+    line-height: 1.1;
+    display: block;
+}
+
+.prices_top--me li:last-child {
+    margin-right: 0;
+}
+}
+
+@media screen and (max-width:500px) {
+
+
+    .fault_me__item {
+        width: 100%
+    }
+
+    .single-model .slide_cont {
+        background-size: auto 45% !important;
+        background-position: 95% 90% !important;
+        margin: 0;
+        padding: 42px 20px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+
+    .slide_time {
+        background: rgba(255, 255, 255, 0.9);
+        color: #132836;
+        box-shadow: 0 0 20px 0px;
+    }
+
+    .advant {
+        background-position: 50% 0;
+        text-align: center;
+        font-size: 14px;
+        max-width: 320px;
+        line-height: 1.5;
+        margin: 0 auto 15px;
+    }
+
+    .advant span {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+    }
+
+    .slide_cont {
+        padding: 40px 20px;
+        max-width: 340px;
+    }
+
+    header .top_tel {
+        background: #ec1a23;
+        font-size: 0;
+        position: relative;
+        width: 30px;
+        margin: -17px -16px -17px 18px;
+        height: 53px;
+    }
+
+    header .top_tel a {
+        position: absolute;
+        font-size: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(https://boshcare.ru/wp-content/themes/repairbosch/images/tel.svg) no-repeat 0px 5px;
+        filter: brightness(1000);
+        background-position: 50%;
+    }
+
+    header .top_tel span {
+        display: none;
+    }
+
+    .show_nav {
+        margin: 2px 0 0;
+    }
+
+    .top {
+        padding: 12px 16px 14px;
+    }
+
+    .top_ls {
+        margin: 0;
+    }
+}

@@ -1,0 +1,502 @@
+.wrap {
+	width: 980px;
+	}
+
+.on980, .only980 {display: block;}
+.hide980 {display: none;}
+
+.btn_s3 {
+	padding: 13px 30px;
+	}
+
+.top {
+	padding: 15px 0;
+	}
+
+.top_ls {
+	display: block;
+	}
+
+.slogan{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	}
+
+.slogan:before {
+	display: none;
+	}
+
+
+.slide_cont {
+	padding: 70px 50% 40px 60px;
+	}
+
+.slide_t {
+	padding: 0 0 20px 0;
+	font-size: 44px;
+	line-height: 50px;
+	}
+
+.slide_e {
+	padding: 0 0 30px 0;
+	line-height: 24px;
+	}
+
+.slide_time {
+	top: 50px;
+	right: 250px;
+	}
+
+.slide_time_r {
+	right: 40px;
+	}
+
+
+.preims {
+	padding: 10px 0 70px 0;
+	}
+
+.preim {
+	width: 24%;
+	}
+
+
+.bge1:before {
+	right: 1%;
+	}
+
+
+.blue_text {
+	padding: 70px 0 40px 0;
+	}
+
+
+.faults_pad {
+	padding: 70px 0;
+	}
+
+.bge2 {
+	background-position: 54% 50px;
+	}
+
+.faults_top {
+	padding: 0 0 30px 0;
+	}
+
+.faults_top_p {
+	max-width: 170px;
+	margin: 0 20px 0 0;
+	font-size: 18px;
+	line-height: 24px;
+	}
+
+.fault {
+	width: 310px;
+	margin: 0 0 25px 0;
+	}
+
+
+.advants {
+	padding: 70px 0;
+	}
+
+
+.shema {
+	padding: 70px 0;
+	}
+
+.shema_l {
+	width: 400px;
+	}
+
+.shema_img {
+	height: 400px;
+	}
+
+.steps {
+	width: 550px;
+	}
+
+.step {
+	min-height: 100px;
+	padding: 20px 30px;
+	margin: 0 0 10px 0;
+	}
+
+.step_t {
+	padding: 0 0 8px 0;
+	}
+
+
+.red_form_pad {
+	padding: 0 0 70px 0;
+	}
+
+
+.red_form {
+	flex-wrap: wrap;
+	padding: 40px 60px;
+	}
+
+.red_form_l {
+	width: 100%;
+	padding: 0 0 30px 0;
+	text-align: center;
+	}
+
+.red_form_c {
+	width: 380px;
+	text-align: center;
+	}
+
+.red_form_r {
+	width: 440px;
+	}
+
+
+.masters {
+	padding: 70px 0;
+	}
+
+.masters_top {
+	padding: 0 0 30px 0;
+	}
+
+.masters_top .title {
+	margin: 0 0 20px 0;
+	}
+
+.master_i {
+	margin: 0 auto 20px auto;
+	}
+
+.master_n {
+	padding: 0 10px 15px 10px;
+	}
+
+.master_d {
+	padding: 0 20px 20px 20px;
+	}
+
+
+.demos {
+	padding: 70px 0;
+	}
+
+.demos_top {
+	padding: 0 0 35px 0;
+	}
+
+.model {
+	width: 310px;
+	}
+
+
+.bge6 {
+	background-position: 60% 70px;
+	}
+
+.districts_pad {
+	padding: 70px 0 60px 0;
+	}
+
+.districts_top {
+	padding: 0 0 35px 0;
+	}
+
+.districts {
+	column-gap: 10px;
+	}
+
+.districts a {
+	margin: 0 0 10px 0;
+	padding: 9px 15px;
+	font-size: 18px;
+	}
+
+
+
+.prices {
+	padding: 70px 0;
+	}
+
+.prices_top {
+	padding: 0 0 35px 0;
+	}
+
+.tabs li {
+	padding: 0 25px 0 0;
+	}
+
+.tabs li a {
+	font-size: 28px;
+	line-height: 36px;
+	}
+
+.tabs li a:before {
+	height: 4px;
+	bottom: -8px;
+	}
+
+
+.price {
+	padding: 17px 20px;
+	font-size: 18px;
+	line-height: 24px;
+	}
+
+.price_p {
+	width: 130px;
+	}
+
+.price_zak {
+	right: 180px;
+	}
+
+
+.bge7 {
+	background-position: 90% 90%;
+	}
+
+.serts {
+	padding: 70px 0;
+	}
+
+.serts_l {
+	width: 410px;
+	}
+
+.serts_slider {
+	width: 540px;
+	}
+
+.serts_slide img {
+	max-width: 240px;
+	}
+
+
+.rews {
+	padding: 70px 0;
+	}
+
+.rews_top {
+	padding: 0 0 35px 0;
+	}
+
+.rews_slider .slick-slide {
+	margin: 0 10px;
+	}
+
+.rews_slider .slick-list {
+	margin: 0 -10px;
+	}
+
+
+.models_pad {
+	padding: 70px 0 50px 0;
+	}
+
+.models_top {
+	padding: 0 0 35px 0;
+	}
+
+.models_top .title {
+	max-width: 550px;
+	}
+
+.models_lists a {
+	width: 24%;
+	padding: 15px;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	}
+
+
+
+.bge5:before {
+	left: 1%;
+	}
+
+
+.bge4 {
+	background-position: right 50px;
+	}
+
+.map_pad {
+	padding: 70px 0 50px 0;
+	}
+
+
+
+.breadc {
+	padding: 0 0 40px 0;
+	}
+
+.content {
+	padding: 0 0 40px 0;
+	}
+
+
+.akcii {
+	padding: 70px 0;
+	}
+
+.akcii_top {
+	padding: 0 0 35px 0;
+	}
+
+
+.akciya {
+	display: block;
+	padding: 20px;
+	}
+
+.akciya_img {
+	min-width: 100px;
+	margin: 0 0 12px 0;
+	}
+
+.akciya_l {
+	display: block;
+	}
+
+
+.bot_text {
+	padding: 70px 0 40px 0;
+	}
+
+
+.service_price {
+	margin: 0;
+	padding: 35px 40px;
+	}
+
+.service_price_p {
+	max-width: 380px;
+	}
+
+
+.polomki_pad {
+	padding: 70px 0;
+	}
+
+.polomki_pad .title {
+	margin: 0 0 35px 0;
+	}
+
+.polomki {
+	padding: 0 0 30px 0;
+	}
+
+.polomki a {
+	width: 23%;
+	margin: 0 0 20px 0;
+	}
+
+
+.polomki_no {
+	padding: 40px 50px;
+	}
+
+.polomki_no_t {
+	max-width: 360px;
+	}
+
+.polomki_no_r {
+	max-width: 460px;
+	}
+
+
+.more_services_pad {
+	padding: 70px 0 40px 0;
+	}
+
+.more_services_top {
+	padding: 0 0 35px 0;
+	}
+
+
+.more_service {
+	padding: 20px 15px;
+	font-size: 18px;
+	line-height: 30px;
+	}
+
+
+.district_bot {
+	padding: 70px 0;
+	}
+
+
+.contacts {
+	padding: 70px 0 60px 0;
+	}
+
+.contacts .title {
+	margin: 0 0 35px 0;
+	}
+
+.contacts_fl {
+	flex-wrap: wrap;
+	}
+
+.contacts_adr {
+	width: 100%;
+	padding: 0 0 10px 0;
+	}
+
+
+.contacts_map {
+	padding: 60px 0 50px 0;
+	}
+
+.contacts_map .title {
+	margin: 0 0 35px 0;
+	}
+
+
+
+
+.footer{
+	padding: 40px 0;
+	}
+
+.nav_bot_big{
+	width: 210px;
+	}
+
+.nav_bot_big ul {
+	display: block;
+	}
+
+.nav_bot ul li {
+	padding: 0 0 10px 0;
+	}
+
+.bot_zz{
+	padding: 0 0 20px 0;
+	}
+
+
+.modal_win{
+	width: 500px;
+	padding: 30px 50px;
+	}
+
+.modal_desc {
+	padding: 0 0 30px 0;
+	}
+
+
+.nav_bot_big--wrap{
+	display: block;
+}
+
+.nav_bot_big--wrap > nav{
+	max-width: none;
+}
+
+.nav_bot.nav_bot--second .bot_t{
+	display: none;
+}

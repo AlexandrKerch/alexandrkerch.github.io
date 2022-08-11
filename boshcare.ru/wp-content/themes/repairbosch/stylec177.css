@@ -1,0 +1,2875 @@
+/*
+Theme Name: repairbosch
+Author: RaftKorn
+Author URI: http://artraft.net
+*/
+
+/* NULL */
+
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, EM, FONT, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+SUP, SUB {line-height: 1px;}
+BODY {line-height: 1;}
+UL {list-style: none;}
+:focus {outline: 0;}
+INS {text-decoration: none;}
+DEL {text-decoration: line-through;}
+input::-moz-focus-inner {border: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, .block {display: block;}
+audio, canvas, video {display: inline-block;}
+audio:not([controls]) {display: none;height: 0;}
+
+[hidden] {display: none;}
+.none, .hidden, .on980, .on760, .on320, .only980, .only760 {display: none;}
+
+.clear, .clr {clear: both;}
+hr.clear, hr.clr {padding: 0;margin: 0;height: 1px;overflow: hidden;border: 0;}
+.clearfix:before, .clearfix:after, .clf:before, .clf:after {content: " ";display: table;}
+.clearfix:after, .clf:after {clear: both;}
+.clearfix, .clf {*zoom: 1;}
+
+.alignright, .right { float: right; }
+.alignleft, .left { float: left; }
+.center { text-align: center; }
+.centered, .aligncenter {
+	display: block;
+	margin: 0 auto;
+	}
+
+img.alignright, img.right {
+	margin: 0 0 7px 20px;
+	display: inline;
+	}
+img.alignleft, img.left {
+	margin: 0 20px 7px 0;
+	display: inline;
+	}
+a img {
+	border: none;
+	}
+img {
+	max-width: 100%;
+	}
+
+.entry img {
+	height: auto;
+	}
+
+/* END NULL */
+
+
+/* BASE */
+
+body {
+	color: #3D4E57;
+	font-size: 18px;
+	line-height: 31px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	text-align: center;
+	}
+
+.wrap {
+	width: 1400px;
+	margin: 0 auto;
+	text-align: left;
+	}
+
+input, textarea {
+	font-family: 'Montserrat', sans-serif;
+	}
+
+a {
+	color: #EC1B24;
+	text-decoration: none;
+	transition: all 0.3s 0.02s ease;
+	}
+
+a:hover {
+	color: #132936;
+	text-decoration: none;
+	}
+
+p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title, .entry table, .entry form, .entry ul, .entry ol, .entry hr, blockquote {
+	margin: 0 0 31px 0;
+	}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title {
+	color: #132936;
+	font-weight: bold;
+	font-family: 'Rubik', sans-serif;
+	}
+h1, .h1, .title{
+	font-size: 38px;
+	line-height: 49px;
+	}
+h2, .h2{
+	font-size: 34px;
+	line-height: 45px;
+	}
+h3, .h3{
+	font-size: 30px;
+	line-height: 39px;
+	}
+h4, .h4{
+	font-size: 26px;
+	line-height: 35px;
+	}
+h5, .h5{
+	font-size: 22px;
+	line-height: 31px;
+	}
+h6, .h6{
+	font-size: 18px;
+	line-height: 31px;
+	}
+
+.tit, .tit2, .entry h1, .entry h2{
+	position: relative;
+	}
+
+.tit:before, .tit2:before, .entry h1:before, .entry h2:before {
+	content: " ";
+	display: block;
+	width: 23px;
+	height: 25px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/tit.svg') no-repeat;
+	position: absolute;
+	top: -10px;
+	left: -18px;
+	}
+
+.tit2:before {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/tit2.svg') no-repeat;
+	}
+
+.black{
+	color: #000;
+	}
+.white{
+	color: #fff;
+	}
+.grey{
+	color: #808080;
+	}
+.green{
+	color: #34c924;
+	}
+.red{
+	color: #ff0000;
+	}
+.orange{
+	color: #ffa500;
+	}
+.yellow{
+	color: #ffff00;
+	}
+.blue{
+	color: #0000ff;
+	}
+.purple{
+	color: #8b00ff;
+	}
+.pink{
+	color: #ffc0cb;
+	}
+
+
+.table, .entry table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #959596;
+	border-left: 1px solid #959596;
+	}
+
+.table tr th, .entry table tr th{
+	border-bottom: 1px solid #959596;
+	border-right: 1px solid #959596;
+	background: #f4f4f4;
+	padding: 8px 10px;
+	}
+
+.table tr td, .entry table tr td{
+	border-bottom: 1px solid #959596;
+	border-right: 1px solid #959596;
+	padding: 8px 10px;
+	}
+
+.entry table.nobord, .entry table.nobord tr th, .entry table.nobord tr td {
+	border: 0;
+	padding: 0;
+	background: none;
+	}
+
+.entry ul, ul.list {
+	padding: 0 0 0 20px;
+	list-style: none;
+	}
+
+.entry ol, ol.list {
+	padding: 0 0 0 25px;
+	list-style: none;
+	}
+
+.entry ul ul, .entry ol ol, .entry ol ul, .entry ul ol, ul.list ul, ol.list ol, ol.list ul, ul.list ol {
+	margin: 5px 0 0 0;
+	}
+
+.entry ol > li, ol.list > li {
+	margin: 7px 0 7px 10px;
+	list-style: decimal outside;
+	}
+
+.entry ul > li, ul.list > li {
+	margin: 7px 0 7px 10px;
+	list-style-type: disc;
+	}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+acronym, abbr, span.caps {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	cursor: help;
+	}
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+blockquote {
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.grid {
+	clear: both;
+	*zoom: 1;
+	}
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+[class*='col-'] {
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 20px 0 0;
+	}
+.col-1-8 {
+	width: 12.5%;
+	}
+.col-1-4 {
+	width: 25%;
+	}
+.col-1-3 {
+	width: 33.33%;
+	}
+.col-1-2 {
+	width: 50%;
+	}
+.col-2-3 {
+	width: 66.66%;
+	}
+
+/* END BASE */
+
+
+/* FORM */
+
+.form_line{
+	padding: 0 0 16px 0;
+	}
+
+.lab{
+	display: block;
+	padding: 0 0 2px 0;
+	}
+
+.inp{
+	box-sizing: border-box;
+	width: 100%;
+	height: 62px;
+	padding: 15px 22px;
+	background: #fff;
+	border: 1px solid #3D4E57;
+	border-radius: 31px;
+	-webkit-appearance: none;
+	color: #3D4E57;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	}
+
+.ta{
+	box-sizing: border-box;
+	width: 100%;
+	height: 162px;
+	padding: 15px 22px;
+	background: #fff;
+	border: 1px solid #3D4E57;
+	border-radius: 31px;
+	-webkit-appearance: none;
+	color: #3D4E57;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	vertical-align: bottom;
+	}
+
+.inp:hover, .inp:focus, .ta:hover, .ta:focus {
+	border-color: #EC1B24;
+	}
+
+.inp::placeholder, .ta::placeholder {
+	font-weight: 400;
+	color: #3D4E57;
+	}
+
+.inp_c2{
+	background: #EC1B24;
+	border: 1px solid #fff;
+	color: #fff;
+	}
+
+.inp_c2:hover, .inp_c2:focus {
+	border-color: #fff;
+	}
+
+.inp_c2::placeholder {
+	color: #fff;
+	}
+
+.form_sub {
+	position: relative;
+	}
+
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	min-height: 62px;
+	padding: 15px 52px;
+	border: 1px solid #EC1B24;
+	background: #EC1B24;
+	border-radius: 31px;
+	transition: all 0.3s 0.02s ease;
+	-webkit-appearance: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	}
+
+.btn:hover{
+	border-color: #132936;
+	background-color: #132936;
+	color: #fff;
+	text-decoration: none;
+	}
+
+.btn_c2{
+	background: none;
+	color: #EC1B24;
+	}
+.btn_c2:hover{
+	border-color: #EC1B24;
+	background-color: #EC1B24;
+	color: #fff;
+	}
+
+.btn_c3{
+	border-color: #132936;
+	background-color: #132936;
+	}
+.btn_c3:hover{
+	border-color: #fff;
+	background-color: #fff;
+	color: #132936;
+	}
+
+.btn_c4:hover{
+	border-color: #fff;
+	background-color: #fff;
+	color: #132936;
+	}
+
+.btn_c5{
+	border-color: #fff;
+	background-color: #132936;
+	color: #fff;
+	}
+.btn_c5:hover{
+	border-color: #EC1B24;
+	background-color: #EC1B24;
+	}
+
+.btn_c6{
+	border-color: #fff;
+	background-color: #EC1B24;
+	color: #fff;
+	}
+.btn_c6:hover{
+	border-color: #fff;
+	background-color: #fff;
+	color: #132936;
+	}
+
+.btn_s2 {
+	min-height: 52px;
+	padding: 10px 35px;
+	font-size: 16px;
+	}
+
+.btn_s3 {
+	min-height: 58px;
+	padding: 13px 53px;
+	border-radius: 4px;
+	}
+
+.form_sub .wpcf7-spinner {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	}
+
+.form_sog {
+	padding: 14px 0 0 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+	color: #D0D0D0;
+	}
+
+.form_sog2 {
+	padding: 14px 0 0 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #A6A6A6;
+	}
+
+
+/* END FORM */
+
+
+/* HEADER */
+
+header {
+	}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 24px 0;
+	}
+
+.top_ls {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	}
+
+.logo{
+	max-width: 150px;
+	}
+
+.logo img{
+	vertical-align: bottom;
+	}
+
+.slogan{
+	max-width: 200px;
+	margin: 0 0 0 22px;
+	padding: 0 0 0 24px;
+	position: relative;
+	color: #132936;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	}
+
+.slogan:before {
+	content: " ";
+	display: block;
+	width: 2px;
+	height: 32px;
+	background: #132936;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translateY(-50%);
+	}
+
+
+.top_adr{
+	max-width: 250px;
+	padding: 0 0 0 25px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/loc.svg') no-repeat 0px 5px;
+	color: #132936;
+	line-height: 24px;
+	}
+
+.top_adr span{
+	padding: 0 16px 0 0;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/drop2.svg') no-repeat right 9px;
+	cursor: pointer;
+	}
+
+.adr_drop{
+	position: relative;
+	}
+
+.adr_drop ul {
+	display: none;
+	box-sizing: border-box;
+	width: 240px;
+	padding: 6px 14px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	z-index: 300;
+	background: #FFF;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	}
+
+.adr_drop ul li {
+	margin: 2px 0;
+	font-size: 12px;
+	color: #3D4E57;
+	font-weight: 400;
+	transition: all 0.3s 0.02s ease;
+	cursor: pointer;
+	}
+
+.adr_drop ul li.active {
+	color: #EC1B24;
+	font-weight: 500;
+	}
+
+.adr_drop ul li:hover {
+	color: #EC1B24;
+	}
+
+.top_adr_a {
+	font-weight: 300;
+	}
+
+
+.top_tel{
+	padding: 0 0 0 26px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/tel.svg') no-repeat 0px 5px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #132936;
+	text-align: right;
+	}
+
+.top_tel a{
+	color: #132936;
+	}
+
+.top_tel a:hover{
+	color: #EC1B24;
+	}
+
+.top_tel span{
+	display: block;
+	color: #5E5E5E;
+	font-size: 12px;
+	font-weight: 400;
+	}
+
+
+.show_nav{
+	display: none;
+	width: 30px;
+	height: 23px;
+	margin: 0 0 5px 0;
+	position: relative;
+	cursor: pointer;
+	}
+.show_nav span, .show_nav:before, .show_nav:after{
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #132936;
+	border-radius: 2px;
+	position: absolute;
+	left: 0px;
+	transition: all 0.3s 0.02s ease;
+	}
+.show_nav span{
+	top: 10px;
+	}
+.show_nav:before {
+	top: 0px;
+	}
+.show_nav:after {
+	top: 20px;
+	}
+.show_nav.open span{
+	display: none;
+	}
+.show_nav.open:before{
+	transform: rotate(45deg);
+	top: 10px;
+	}
+.show_nav.open:after{
+	transform: rotate(-45deg);
+	top: 10px;
+	}
+
+@media (min-width: 761px) {
+.main_nav{
+	display: block !important;
+	}
+}
+
+.main_nav {
+	border-top: 1px solid #B9B9B9;
+	}
+
+.main_nav > ul{
+	display: flex;
+	justify-content: space-between;
+	}
+
+.main_nav > ul > li {
+	position: relative;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	}
+
+.main_nav > ul > li > a{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	height: 60px;
+	color: #3D4E57;
+	}
+
+.main_nav > ul > li > a:hover, .main_nav > ul > li.current-menu-item > a, .main_nav > ul > li.current-menu-parent > a, .main_nav > ul > li.current-menu-ancestor > a{
+	color: #EC1B24;
+	}
+
+.main_nav > ul > li.menu-item-has-children > a {
+	padding: 0 18px 0 0;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/drop.svg') no-repeat right center;
+	}
+
+.main_nav > ul > li.menu-item-has-children > a:hover, .main_nav > ul > li.menu-item-has-children.current-menu-item > a, .main_nav > ul > li.menu-item-has-children.current-menu-parent > a, .main_nav > ul > li.menu-item-has-children.current-menu-ancestor > a {
+	background-image: url('https://boshcare.ru/wp-content/themes/repairbosch/images/drop3.svg');
+	}
+
+.main_nav > ul > li > ul{
+	display: block;
+	box-sizing: border-box;
+	width: 240px;
+	padding: 6px 14px;
+	position: absolute;
+	top: 120%;
+	left: -2px;
+	z-index: 300;
+	background: #FFF;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	}
+
+.main_nav > ul > li:hover > ul{
+	top: 83%;
+	opacity: 1;
+	visibility: visible;
+	}
+
+.main_nav > ul > li > ul > li {
+	margin: 2px 0;
+	font-size: 12px;
+	color: #3D4E57;
+	}
+
+.main_nav > ul > li > ul > li > a {
+	color: #3D4E57;
+	}
+
+.main_nav > ul > li > ul > li > a:hover, .main_nav > ul > li > ul > li.current-menu-item > a, .main_nav > ul > li > ul > li.current-menu-parent > a, .main_nav > ul > li > ul > li.current-menu-ancestor > a {
+	color: #EC1B24;
+	}
+
+.main_nav > ul > li > ul > li.current-menu-item > a, .main_nav > ul > li > ul > li.current-menu-parent > a, .main_nav > ul > li > ul > li.current-menu-ancestor > a {
+	font-weight: 500;
+	}
+
+
+/* END HEADER */
+
+
+/* HOME */
+
+.no_slider {
+	margin: 0 0 24px 0;
+	border-top: 1px solid #B9B9B9;
+	}
+
+.slider {
+	margin: 0 0 24px 0;
+	}
+
+.slide {
+	background: #132936 url('https://boshcare.ru/wp-content/themes/repairbosch/images/bg1.png') repeat center / 50px;
+	border-radius: 20px;
+	}
+
+.slide_cont {
+	min-height: 350px;
+	padding: 80px 735px 48px 82px;
+	position: relative;
+	border-radius: 0 0 18px 0;
+	color: #fff;
+	}
+
+.slide_t {
+	padding: 0 0 22px 0;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 58px;
+	}
+
+.slide_e {
+	padding: 0 0 42px 0;
+	line-height: 27px;
+	font-weight: 400;
+	}
+
+.slide_time {
+	padding: 10px 23px;
+	border: 1px solid #FFF;
+	position: absolute;
+	top: 63px;
+	right: 402px;
+	border-radius: 6px;
+	font-size: 14px;
+	line-height: 21px;
+	}
+
+.slide_time_r {
+	right: 53px;
+	}
+
+.slide_time span {
+	font-size: 18px;
+	font-weight: bold;
+	}
+
+
+.slick-arrow {
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	background: #FFF url('https://boshcare.ru/wp-content/themes/repairbosch/images/prev.svg') no-repeat center;
+	border: 1px solid #AEAEAE;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	z-index: 200;
+	transform: translateY(-50%);
+	transition: all 0.3s 0.02s ease;
+	overflow: hidden;
+	text-indent: -9999px;
+	cursor: pointer;
+	}
+
+.slick-arrow:hover{
+	background: #EC1B24 url('https://boshcare.ru/wp-content/themes/repairbosch/images/prev2.svg') no-repeat center;
+	border-color: #EC1B24;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+	}
+
+.slick-prev{
+	left: -102px;
+	}
+
+.slick-next{
+	right: -102px;
+	transform: translateY(-50%) rotate(180deg);
+	}
+
+@media (min-width: 1650px) {
+.slick-arrow{
+	width: 56px;
+	height: 56px;
+	}
+.slider .slick-arrow{
+	border-color: transparent;
+	background-image: url('https://boshcare.ru/wp-content/themes/repairbosch/images/prev3.svg');
+	}
+}
+
+@media (max-width: 1650px) {
+.slick-prev{
+	left: 10px;
+	}
+.slick-next{
+	right: 10px;
+	}
+.rews_slider .slick-prev{
+	left: 0px;
+	}
+.rews_slider .slick-next{
+	right: 0px;
+	}
+}
+
+.slick-dots{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 0 0;
+	}
+
+.slick-dots li{
+	padding: 0 7px;
+	}
+
+.slick-dots li button{
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: #C4C4C4;
+	border-radius: 50%;
+	transition: all 0.3s 0.02s ease;
+	overflow: hidden;
+	text-indent: -9999px;
+	cursor: pointer;
+	}
+
+.slick-dots li.slick-active button, .slick-dots li button:hover{
+	background: #EC1B24;
+	}
+
+
+.preims {
+	display: flex;
+	justify-content: space-between;
+	padding: 26px 0 110px 0;
+	}
+
+.preim {
+	width: 22%;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	}
+
+.preim span {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	height: 46px;
+	padding: 0 0 0 62px;
+	margin: 0 0 14px 0;
+	position: relative;
+	font-weight: bold;
+	color: #132936;
+	}
+
+.preim span:before {
+	content: " ";
+	display: block;
+	width: 46px;
+	height: 46px;
+	border-radius: 6px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+
+.preim1 span:before {
+	background: #132936 url('https://boshcare.ru/wp-content/themes/repairbosch/images/preim1.svg') no-repeat center;
+	}
+.preim2 span:before {
+	background: #132936 url('https://boshcare.ru/wp-content/themes/repairbosch/images/preim2.svg') no-repeat center;
+	}
+.preim3 span:before {
+	background: #132936 url('https://boshcare.ru/wp-content/themes/repairbosch/images/preim3.svg') no-repeat center;
+	}
+.preim4 span:before {
+	background: #132936 url('https://boshcare.ru/wp-content/themes/repairbosch/images/preim4.svg') no-repeat center;
+	}
+
+
+.bg2 {
+	background: #daf1ff url('https://boshcare.ru/wp-content/themes/repairbosch/images/bg2.png') repeat center / 50px;
+	}
+
+.bge1 {
+	position: relative;
+	}
+
+.bge1:before {
+	content: " ";
+	display: block;
+	width: 133px;
+	height: 126px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge1.svg') no-repeat center / contain;
+	position: absolute;
+	top: -91px;
+	right: 3%;
+	}
+
+.blue_text {
+	padding: 110px 0 80px 0;
+	}
+
+
+.faults_pad {
+	padding: 110px 0 107px 0;
+	}
+
+.bge2 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge2.svg') no-repeat 49% 104px;
+	}
+.no_bge2 .bge2 {
+	background: none;
+	}
+
+.faults_top {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0 48px 0;
+	}
+
+.faults_top .title {
+	max-width: 505px;
+	margin: 0;
+	}
+
+.faults_top_r {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	}
+
+.faults_top_p {
+	max-width: 295px;
+	margin: 0 27px 0 0;
+	font-size: 20px;
+	line-height: 30px;
+	}
+
+
+.faults {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+
+.fault {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	width: 320px;
+	padding: 15px 25px 21px 25px;
+	margin: 0 0 40px 0;
+	border: 1px solid #AEAEAE;
+	background: #fff;
+	border-radius: 6px;
+	}
+
+.bg_blue .fault {
+	border-color: #fff;
+	}
+
+.fault_top {
+	padding: 0 0 10px 0;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 34px;
+	}
+
+.fault_top a {
+	color: #132936;
+	}
+
+.fault_top a:hover {
+	color: #EC1B24;
+	}
+
+.fault ul {
+	flex-grow: 1;
+	padding: 0 0 10px 0;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	}
+
+.fault ul li {
+	padding: 0 0 8px 12px;
+	position: relative;
+	}
+
+.fault ul li:before {
+	content: " ";
+	display: block;
+	width: 3px;
+	height: 3px;
+	background: #3D4E57;
+	border-radius: 50%;
+	position: absolute;
+	top: 9px;
+	left: 0px;
+	}
+
+.fault ul li a {
+	color: #3D4E57;
+	}
+
+.fault ul li a:hover {
+	color: #EC1B24;
+	}
+
+.fault_p {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	color: #EC1B24;
+	}
+
+.faults_all {
+	text-align: center;
+	}
+
+
+.advants {
+	display: flex;
+	justify-content: space-between;
+	padding: 84px 0 87px 0;
+	color: #FFF;
+	}
+
+.advants_w .advants {
+	color: #3D4E57;
+	}
+
+.advant {
+	box-sizing: border-box;
+	width: 23%;
+	padding: 99px 0 0 8px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+.advant1 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/advant1.svg') no-repeat;
+	}
+.advant2 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/advant2.svg') no-repeat;
+	}
+.advant3 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/advant3.svg') no-repeat;
+	}
+.advant4 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/advant4.svg') no-repeat;
+	}
+
+.advant span {
+	display: block;
+	padding: 0 0 6px 0;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 34px;
+	}
+
+.advants_w .advant span {
+	color: #132936;
+	}
+
+
+.shema {
+	display: flex;
+	justify-content: space-between;
+	padding: 110px 0;
+	}
+
+.shema_l {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 531px;
+	}
+
+.shema_l .title {
+	margin: 0 0 16px 0;
+	}
+
+.shema_e {
+	padding: 0 0 30px 0;
+	flex-grow: 1;
+	}
+
+.shema_img {
+	height: 482px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/shema_img.svg') no-repeat center / contain;
+	position: relative;
+	}
+
+.shema_img_t {
+	box-sizing: border-box;
+	width: 190px;
+	height: 89px;
+	padding: 15px 20px 10px 83px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/shema_img_t.svg') no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #5F5F5F;
+	}
+
+.shema_img_t span {
+	display: block;
+	padding: 0 0 9px 0;
+	font-family: Rubik;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #132936;
+	}
+
+.shema_img_b {
+	box-sizing: border-box;
+	width: 202px;
+	height: 84px;
+	padding: 12px 20px 10px 81px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/shema_img_b.svg') no-repeat;
+	position: absolute;
+	bottom: -19px;
+	right: -37px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #5F5F5F;
+	}
+
+.shema_img_b span {
+	display: block;
+	padding: 0 0 6px 0;
+	font-family: Rubik;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #132936;
+	}
+
+
+.steps {
+	width: 800px;
+	}
+
+.step {
+	box-sizing: border-box;
+	min-height: 160px;
+	padding: 31px 40px;
+	margin: 0 0 14px 0;
+	background: #FFFFFF;
+	border-radius: 10px;
+	transition: all 0.3s 0.02s ease;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	color: #646464;
+	}
+
+.step:last-child {
+	margin: 0;
+	}
+
+.step:hover {
+	background: #EC1B24;
+	color: #FFDFDF;
+	}
+
+.step_t {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 12px 0;
+	transition: all 0.3s 0.02s ease;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 31px;
+	color: #132936;
+	}
+
+.step:hover .step_t {
+	color: #fff;
+	}
+
+.step_num {
+	padding: 0 15px 0 0;
+	transition: all 0.3s 0.02s ease;
+	font-weight: bold;
+	font-size: 24px;
+	color: #DAF1FF;
+	}
+
+.step:hover .step_num {
+	color: #fff;
+	}
+
+
+.red_form_pad {
+	padding: 0 0 110px 0;
+	}
+
+.red_form {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 52px 80px 55px 80px;
+	background: #EC1B24;
+	border-radius: 20px;
+	color: #fff;
+	}
+
+.red_form .wpcf7-not-valid-tip {
+	color: #fff;
+	}
+
+.red_form_l {
+	width: 400px;
+	color: #FFDFDF;
+	line-height: 25px;
+	}
+
+.red_form .title {
+	margin: 0 0 18px 0;
+	color: #fff;
+	}
+
+.red_form_c {
+	width: 320px;
+	}
+
+.red_form_c .btn {
+	width: 100%;
+	}
+
+.red_form_r {
+	width: 400px;
+	line-height: 29px;
+	font-weight: 400;
+	text-align: center;
+	}
+
+.red_form_r a {
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 54px;
+	color: #fff;
+	}
+
+.red_form_r a:hover {
+	text-decoration: underline;
+	color: #fff;
+	}
+
+.red_form_r span {
+	display: block;
+	}
+
+
+.bge3 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge2.svg') no-repeat 95% 80px;
+	}
+
+
+.masters {
+	padding: 110px 0;
+	text-align: center;
+	}
+
+.masters_top {
+	padding: 0 0 48px 0;
+	text-align: center;
+	}
+
+.masters_top .title {
+	margin: 0 0 22px 0;
+	}
+
+.masters_slider .slick-arrow {
+	top: 105px;
+	}
+
+.master_i {
+	width: 210px;
+	height: 210px;
+	padding: 4px;
+	border: 1px solid #132936;
+	border-radius: 50%;
+	margin: 0 auto 30px auto;
+	}
+
+.master_i img {
+	vertical-align: bottom;
+	border-radius: 50%;
+	}
+
+.master_n {
+	padding: 0 10px 18px 10px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	color: #132936;
+	}
+
+.master_d {
+	padding: 0 30px 30px 30px;
+	font-weight: 400;
+	line-height: 23px;
+	color: #646464;
+	}
+
+.master_o {
+	padding: 0 10px;
+	font-weight: 600;
+	line-height: 23px;
+	color: #EC1B24;
+	}
+
+
+.bg3 {
+	background: #132936;
+	}
+
+.demos {
+	padding: 110px 0;
+	}
+
+.demos_top {
+	padding: 0 0 44px 0;
+	color: #DADADA;
+	text-align: center;
+	}
+
+.demos_top .title {
+	margin: 0 0 20px 0;
+	color: #fff;
+	}
+
+.model_list_more{
+	text-align: center;
+}
+
+.models-list{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+	box-sizing: border-box;
+}
+
+.models-list-item{
+	padding: 0 15px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.models-list-item.models-list-item--hide{
+	display: none;
+}
+
+.models-list-item .btn{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+.model {
+	box-sizing: border-box;
+	width: 320px;
+	height: 380px;
+	padding: 30px 26px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-size: 16px;
+	}
+
+.model.model--list{
+	height: auto;
+}
+
+.model_img {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+	height: 200px;
+	margin: 0 0 26px 0;
+	}
+
+.model_img img {
+	vertical-align: bottom;
+	max-height: 200px;
+	}
+
+.model_t {
+	height: 44px;
+	margin: 0 0 14px 0;
+	overflow: hidden;
+	font-weight: 600;
+	line-height: 22px;
+	}
+
+.model_t a {
+	color: #132936;
+	}
+
+.model_t a:hover {
+	color: #EC1B24;
+	}
+
+.model_bot {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #DDDDDD;
+	padding: 14px 0 0 0;
+	line-height: 21px;
+	}
+
+.model_bot.model_bot--list{
+	display: block;
+}
+
+.model_p {
+	padding: 0 0 0 30px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/model_p.svg') no-repeat 0px center;
+	}
+
+.model_d {
+	padding: 0 0 0 30px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/model_d.svg') no-repeat 0px center;
+	}
+
+
+
+.districts_pad {
+	padding: 110px 0 90px 0;
+	}
+
+.bge6 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge2.svg') no-repeat 60% 112px;
+	}
+
+.no_bge6 .bge6 {
+	background: none;
+	}
+
+.districts_top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 48px 0;
+	}
+
+.districts_top .title {
+	max-width: 470px;
+	margin: 0;
+	}
+
+.districts_lt .districts_top .title {
+	max-width: 90%;
+	}
+
+.districts_darck .districts_top .title {
+	color: #fff;
+	}
+
+.districts_darck .districts_top .btn:hover {
+	border-color: #fff;
+	background-color: #fff;
+	color: #132936;
+	}
+
+.districts {
+	display: flex;
+	flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    margin: 0 -10px;
+	}
+
+.districts a {
+	display: block;
+	padding: 15px 29px;
+	margin: 0 10px 20px 10px;
+	background: #fff;
+	border: 1px solid #AEAEAE;
+	border-radius: 6px;
+	font-size: 22px;
+	line-height: 28px;
+	color: #3D4E57;
+    flex: 1 1 auto;
+    text-align: center;
+	}
+
+.bg_blue .fault_me__item{
+    border: none;
+}
+
+.districts a.district_hide {
+	display: none;
+	}
+
+.districts a.district_hide.open {
+	display: block;
+	}
+
+.districts a:hover {
+	background: #EC1B24;
+	border-color: 1px solid #EC1B24;
+	color: #fff;
+	}
+
+.districts_darck .districts a {
+	border-color: #AEAEAE;
+	color: #3D4E57;
+	}
+
+.districts_darck .districts a:hover {
+	border-color: #EC1B24;
+	color: #fff;
+	}
+
+.districts_blue .districts a {
+	border-color: #fff;
+	}
+
+.districts_blue .districts a:hover {
+	border-color: #EC1B24;
+	}
+
+
+.bg_blue {
+	background: #DAF1FF;
+	}
+
+.prices {
+	padding: 110px 0;
+	}
+
+.prices_top {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 44px 0;
+	border-bottom: 1px solid #C9C9C9;
+	}
+
+.tabs {
+	display: flex;
+	}
+
+.tabs li {
+	padding: 0 38px 0 0;
+	}
+
+.tabs li a {
+	position: relative;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 49px;
+	color: rgba(19, 41, 54, 0.4);
+	}
+
+.tabs li a:hover {
+	color: #132936;
+	}
+
+.tabs li.ui-tabs-active a {
+	font-weight: bold;
+	color: #132936;
+	}
+
+.tabs li a:before {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 6px;
+	background: #132936;
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	transition: all 0.3s 0.02s ease;
+	}
+
+.tabs li.ui-tabs-active a:before {
+	width: 100%;
+	}
+
+.prices_all {
+	margin: 0 0 0 auto;
+	}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 30px;
+	border-bottom: 1px solid #C9C9C9;
+	position: relative;
+	transition: all 0.3s 0.02s ease;
+	font-size: 20px;
+	line-height: 26px;
+	color: #2F2F2F;
+	}
+
+.price:hover {
+	background: #c6ddeb;
+	}
+
+.price_hide {
+	display: none;
+	}
+
+.price_hide.open {
+	display: flex;
+	}
+
+.price_t a {
+	color: #2F2F2F;
+	}
+
+.price_t a:hover {
+	color: #EC1B24;
+	}
+
+.price_p {
+	width: 145px;
+	text-align: center;
+	}
+
+.price_zak {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 0 48px;
+	background: #132936;
+	border-radius: 4px;
+	position: absolute;
+	top: 0px;
+	right: 218px;
+	color: #fff;
+	opacity: 0;
+	}
+
+.price_zak:hover {
+	background: #EC1B24;
+	color: #fff;
+	}
+
+.price:hover .price_zak {
+	opacity: 1;
+	}
+
+
+.bge7 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge2.svg') no-repeat 2% 80%;
+	}
+
+.serts_darck {
+	color: #fff;
+	}
+
+.serts {
+	display: flex;
+	justify-content: space-between;
+	padding: 110px 0;
+	}
+
+.serts_l {
+	width: 455px;
+	}
+
+.serts_darck .title {
+	color: #fff;
+	}
+
+.serts_slider {
+	width: 835px;
+	}
+
+.serts_slide img {
+	max-width: 252px;
+	margin: 0 auto;
+	vertical-align: bottom;
+	}
+
+.serts_slider .slick-arrow{
+	top: auto;
+	bottom: -28px;
+	}
+
+.serts_slider .slick-prev{
+	left: -565px;
+	}
+
+.serts_slider .slick-next{
+	left: -487px;
+	}
+
+
+.rews {
+	padding: 110px 0;
+	}
+
+.rews_top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 44px 0;
+	}
+
+.rews_top_l {
+	font-weight: 400;
+	color: #DADADA;
+	}
+
+.rews_darck .rews_top_l {
+	color: #3D4E57;
+	}
+
+.rews_top .title {
+	margin: 0 0 16px 0;
+	color: #fff;
+	}
+
+.rews_darck .rews_top .title {
+	color: #132936;
+	}
+
+.rews_slider .slick-track {
+	display: flex !important;
+	}
+
+.rews_slider .slick-slide {
+	display: flex !important;
+	height: inherit !important;
+	}
+
+.rews_slider .slick-slide {
+	margin: 0 20px;
+	}
+
+.rews_slider .slick-list {
+	margin: 0 -20px;
+	}
+
+.rew {
+	box-sizing: border-box;
+	width: 100%;
+	height: inherit;
+	padding: 24px 26px 25px 26px;
+	background: #fff;
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	}
+
+.rew_top {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 14px 0;
+	color: #132936;
+	line-height: 20px;
+	}
+
+.rew_n {
+	font-weight: 600;
+	font-size: 16px;
+	}
+
+.rew_d {
+	font-weight: 300;
+	font-size: 12px;
+	}
+
+.rew_rat {
+	display: flex;
+	padding: 2px 0 0 0;
+	}
+
+.rew_rat span {
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 0 0 0 5px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/rat0.svg') no-repeat;
+	}
+
+.rew_rat span.active {
+	background-image: url('https://boshcare.ru/wp-content/themes/repairbosch/images/rat.svg');
+	}
+
+.rew p {
+	margin: 0 0 5px 0;
+	}
+
+
+.models_pad {
+	padding: 110px 0 90px 0;
+	}
+
+.models_top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 44px 0;
+	}
+
+.models_top .title {
+	margin: 0;
+	}
+
+.models_lists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+
+.models_lists a {
+	display: block;
+	box-sizing: border-box;
+	width: 19%;
+	padding: 26px 29px;
+	margin: 0 0 20px 0;
+	background: #fff;
+	border: 1px solid #AEAEAE;
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #3D4E57;
+	}
+
+.models_lists a:hover {
+	background: #EC1B24;
+	border-color: #EC1B24;
+	color: #fff;
+	}
+
+.models_color .models_lists a {
+	border-color: #fff;
+	}
+
+.models_color .models_lists a:hover {
+	border-color: #EC1B24;
+	}
+
+
+.bge5 {
+	position: relative;
+	}
+
+.bge5:before {
+	content: " ";
+	display: block;
+	width: 133px;
+	height: 126px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge1.svg') no-repeat center / contain;
+	position: absolute;
+	top: -91px;
+	left: 3%;
+	}
+
+
+.bge4 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge4.svg') no-repeat right 80px;
+	}
+
+.map_pad {
+	padding: 110px 0 80px 0;
+	text-align: center;
+	}
+
+.map_pad .title {
+	margin: 0 0 20px 0;
+	}
+
+.map_e {
+	margin: 0 0 44px 0;
+	}
+
+.map iframe {
+	width: 100% !important;
+	vertical-align: bottom;
+	}
+
+
+/* END HOME */
+
+
+/* POSTS */
+
+.breadc {
+	padding: 0 0 58px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #A6A6A6;
+	}
+
+.breadc a {
+	color: #132936;
+	}
+
+.breadc a:hover {
+	color: #EC1B24;
+	}
+
+
+.content {
+	padding: 0 0 80px 0;
+	}
+
+
+.post_list {
+	padding: 0 0 30px 0;
+	}
+
+.post_list_t {
+	padding: 0 0 3px 0;
+	font-weight: bold;
+	}
+
+.p_nav {
+	padding: 10px 0;
+	}
+
+.p_nav a, .p_nav span {
+	display: inline-block;
+	padding: 4px 10px;
+	margin: 0 5px 0 0;
+	background: #57b64d;
+	color: #fff;
+	}
+
+.p_nav a:hover, .p_nav .current {
+	background: #ca2a3c;
+	}
+
+.post {
+	padding: 0 0 10px 0;
+	}
+
+
+.akcii {
+	padding: 110px 0;
+	}
+
+.akcii_top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 48px 0;
+	font-weight: 400;
+	}
+
+.akcii_top .title {
+	margin: 0 0 20px 0;
+	}
+
+
+.akcii_slider .slick-track {
+	display: flex !important;
+	}
+
+.akcii_slider .slick-slide {
+	height: inherit !important;
+	}
+
+.akcii_slider .slick-slide {
+	display: flex !important;
+	height: inherit !important;
+	margin: 0 20px;
+	}
+
+.akcii_slider .slick-list {
+	margin: 0 -20px;
+	}
+
+
+.akciya {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 29px;
+	border: 1px solid #AEAEAE;
+	border-radius: 6px;
+	transition: all 0.3s 0.02s ease;
+	}
+
+.akciya:hover {
+	border-color: #EC1B24;
+	}
+
+.akciya_img {
+	min-width: 280px;
+	margin: 0 0 0 40px;
+	order: 2;
+	}
+
+.akciya_img img {
+	border-radius: 4px;
+	vertical-align: bottom;
+	}
+
+.akciya_l {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+.akciya_t {
+	margin: 0 0 8px 0;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	}
+
+.akciya_t a {
+	color: #132936;
+	}
+
+.akciya_t a:hover {
+	color: #EC1B24;
+	}
+
+.akciya_e {
+	flex-grow: 1;
+	margin: 0 0 10px 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	}
+
+.akciya_s {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 19px;
+	color: #EC1B24;
+	}
+
+
+.bot_text {
+	padding: 110px 0 80px 0;
+	}
+
+
+.service_price {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin: 0 0 20px 0;
+	padding: 51px 70px;
+	background: #132936;
+	border-radius: 6px;
+	}
+
+.service_price_p {
+	margin: 0 30px 0 0;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 42px;
+	color: #FFFFFF;
+	}
+
+.service_price_tel {
+	margin: 0 0 0 auto;
+	}
+
+.service_price_go {
+	margin: 0 0 0 25px;
+	}
+
+
+.polomki_pad {
+	padding: 110px 0;
+	}
+
+.polomki_pad .title {
+	margin: 0 0 48px 0;
+	}
+
+.polomki {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 0 50px 0;
+	}
+
+.polomki a {
+	align-items: center;
+    display: flex;
+    justify-content: center;
+	box-sizing: border-box;
+	width: 15%;
+	padding: 15px 10px;
+	margin: 0 0 30px 0;
+	background: #FFF;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	}
+
+.polomki a:hover {
+	background: #EC1B24;
+	color: #fff;
+	}
+
+
+.polomki_no {
+	display: flex;
+	justify-content: space-between;
+	padding: 55px 100px 55px 80px;
+	background: #EC1B24;
+	border-radius: 20px;
+	color: #fff;
+	}
+
+.polomki_no_t {
+	max-width: 420px;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 39px;
+	}
+
+.polomki_no_r {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 553px;
+	}
+
+.polomki_no_e {
+	width: 100%;
+	padding: 0 0 20px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+.more_services_pad {
+	padding: 110px 0 80px 0;
+	}
+
+.more_services_top {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 0 48px 0;
+	}
+
+.more_services_top .title {
+	margin: 0;
+	}
+
+.more_services {
+	display: flex;
+	justify-content: space-between;
+	}
+
+.more_service {
+	width: 24%;
+	box-sizing: border-box;
+	padding: 33px 24px 39px 24px;
+	border: 1px solid #AEAEAE;
+	border-radius: 6px;
+	transition: all 0.3s 0.02s ease;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 34px;
+	text-align: center;
+	color: #132936;
+	}
+
+.more_service:hover {
+	color: #EC1B24;
+	border-color: #EC1B24;
+	}
+
+.more_service_img {
+	height: 79px;
+	margin: 0 0 20px 0;
+	position: relative;
+	}
+
+.more_service_img img {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	vertical-align: bottom;
+	transition: all 0.3s 0.02s ease;
+	}
+
+.more_service_img .img_h {
+	opacity: 0;
+	}
+
+.more_service:hover .more_service_img .img_h {
+	opacity: 1;
+	}
+.more_service:hover .more_service_img .img {
+	opacity: 0;
+	}
+
+.more_service_t a {
+	color: #132936;
+	}
+
+.more_service_t a:hover {
+	color: #EC1B24;
+	}
+
+
+.district_bot {
+	padding: 110px 0;
+	}
+
+.district_mi {
+	display: flex;
+	justify-content: space-between;
+	}
+
+.district_map {
+	width: 65%;
+}
+
+.district_map iframe {
+	width: 100% !important;
+	vertical-align: bottom;
+	}
+
+.district_ico {
+	order: 2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 32%;
+	border: 1px solid #AEAEAE;
+	height: 400px;
+	}
+
+.district_map > ymaps{
+    height: 400px !important;
+}
+
+.district_ico img {
+	max-width: 90%;
+	max-height: 90%;
+	vertical-align: bottom;
+	}
+
+
+.bge8 {
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/bge2.svg') no-repeat 3% 30%;
+	}
+
+.contacts {
+	padding: 110px 0 90px 0;
+	line-height: 27px;
+	}
+
+.contacts .title {
+	margin: 0 0 48px 0;
+	}
+
+.contacts p {
+	margin: 0 0 20px 0;
+	}
+
+.contacts a {
+	color: #132936;
+	font-weight: bold;
+	}
+
+.contacts a:hover {
+	color: #EC1B24;
+	}
+
+.contacts_fl {
+	display: flex;
+	justify-content: space-between;
+	}
+
+.contacts_adr {
+	width: 475px;
+	}
+
+.contacts_tels {
+	width: 170px;
+	}
+
+.contacts_tel {
+	margin: 0 0 12px 0;
+	}
+
+.contacts_mail {
+	width: 150px;
+	}
+
+.contacts_soc {
+	width: 232px;
+	}
+
+
+.contacts_map {
+	padding: 100px 0 80px 0;
+	}
+
+.contacts_map .title {
+	margin: 0 0 44px 0;
+	}
+
+.contacts_map iframe {
+	width: 100% !important;
+	vertical-align: bottom;
+	}
+
+
+/* END POSTS */
+
+
+
+/* FOOTER */
+
+footer {
+	background: #132936;
+	color: #fff;
+	}
+
+.bot {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 25px 0;
+	border-bottom: 1px solid #606060;
+	}
+
+footer .slogan{
+	color: #EFEFEF;
+	}
+
+footer .slogan:before {
+	background: #EFEFEF;
+	}
+
+
+.bot_adr{
+	max-width: 250px;
+	padding: 0 0 0 25px;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/loc2.svg') no-repeat 0px 5px;
+	color: #fff;
+	line-height: 24px;
+	}
+
+.bot_adr span{
+	padding: 0 16px 0 0;
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/drop4.svg') no-repeat right 9px;
+	cursor: pointer;
+	}
+
+.bot_adr_a {
+	font-weight: 300;
+	}
+
+
+footer .top_tel{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/tel2.svg') no-repeat 0px 5px;
+	color: #fff;
+	}
+
+footer .top_tel a{
+	color: #fff;
+	}
+
+footer .top_tel a:hover{
+	color: #EC1B24;
+	}
+
+footer .top_tel span{
+	color: #EFEFEF;
+	}
+
+.soc {
+	display: flex;
+	}
+
+.soc a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 0 0 0 8px;
+	}
+
+.soc_tw{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_tw.svg') no-repeat;
+	}
+.soc_tg{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_tg.svg') no-repeat;
+	}
+.soc_v{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_v.svg') no-repeat;
+	}
+.soc_i{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_i.svg') no-repeat;
+	}
+.soc_y{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_y.svg') no-repeat;
+	}
+.soc_w{
+	background: url('https://boshcare.ru/wp-content/themes/repairbosch/images/soc_w.svg') no-repeat;
+	}
+
+.soc a:hover{
+	opacity: 0.8;
+	}
+
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+.footer_l{
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	}
+
+.bot_t{
+	padding: 0 0 16px 0;
+	font-weight: 500;
+	}
+
+.pays{
+	display: flex;
+	margin: -4px 0 42px 0;
+	}
+
+.pays img{
+	vertical-align: bottom;
+	margin: 0 14px 0 0;
+	}
+
+.copy{
+	padding: 0 0 22px 0;
+	font-size: 14px;
+	}
+
+.nav_foot ul li {
+	padding: 0 0 12px 0;
+	font-size: 14px;
+	font-weight: 300;
+	}
+
+.nav_foot ul li a {
+	color: rgba(234, 234, 234, 0.6);
+	text-decoration: underline;
+	}
+
+.nav_foot ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	}
+
+.nav_foot ul li.current-menu-item a, .nav_foot ul li.current-menu-parent a, .nav_foot ul li.current-menu-ancestor a {
+	font-weight: 500;
+	color: #fff;
+	}
+
+.razr {
+	padding: 0 0 14px 0;
+	font-weight: 400;
+	}
+
+.razr a {
+	color: #EAEAEA;
+	}
+
+.razr a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
+
+.nav_bot{
+	display: flex;
+	flex-direction: column;
+	width: 210px;
+	font-weight: 300;
+	}
+
+
+.nav_bot_big--wrap{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav_bot_big--wrap > nav{
+	flex: 0 0 50%;
+	max-width: 50%;
+	min-width: 0;
+	word-wrap: break-word;
+	width: auto;
+}
+
+.nav_bot_big{
+	width: 480px;
+	}
+
+.nav_bot_c{
+	width: 250px;
+	text-align: center;
+	}
+
+.nav_bot_big ul {
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-between; */
+	}
+
+.nav_bot ul li {
+	padding: 0 0 14px 0;
+	}
+
+.nav_bot_big ul li {
+	width: 210px;
+	}
+
+.nav_bot ul li a {
+	color: #EAEAEA;
+	}
+
+.nav_bot ul li a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
+
+.nav_bot ul li.current-menu-item a, .nav_bot ul li.current-menu-parent a, .nav_bot ul li.current-menu-ancestor a {
+	color: #fff;
+	font-weight: 500;
+	}
+
+.bot_zz{
+	padding: 0 0 30px 0;
+	}
+
+
+.razr{
+	margin: auto 0 0 0;
+	}
+
+
+/* END FOOTER */
+
+
+/* MODAL */
+
+.modal_win{
+	display: none;
+	box-sizing: border-box;
+	width: 560px;
+	max-width: 90%;
+	padding: 50px 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 9999;
+	background: #fff;
+	border-radius: 20px;
+	text-align: center;
+	}
+
+.modal_close {
+	display: block;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	right: 22px;
+	top: 22px;
+	transition: all 0.3s 0.02s ease;
+	cursor: pointer;
+	}
+
+.modal_close:before, .modal_close:after{
+	content: " ";
+	display: block;
+	width: 138%;
+	height: 3px;
+	background: #AEAEAE;
+	border-radius: 2px;
+	position: absolute;
+	top: 49%;
+	left: -19%;
+	transform: rotate(90deg);
+	transition: all 0.3s 0.02s ease;
+	}
+
+.modal_close:before{
+	transform: rotate(45deg);
+	}
+
+.modal_close:after{
+	transform: rotate(-45deg);
+	}
+
+.modal_close:hover:before, .modal_close:hover:after{
+	background: #3D4E57;
+	}
+
+.modal_mask {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9000;
+	background: #000;
+	opacity: 0.5;
+	}
+
+.modal_win .title {
+	margin: 0 0 18px 0;
+	}
+
+.modal_desc {
+	padding: 0 0 35px 0;
+	font-weight: 400;
+	line-height: 25px;
+	}
+
+.modal_win .inp {
+	width: 90%;
+	}
+
+.modal_win .btn {
+	width: 90%;
+	}
+
+
+/* END MODAL */
+
+
+
+/* COMMENTS */
+
+.comments_list li {
+	padding: 15px;
+	margin: 0 0 15px 0;
+	border: 1px solid #ddd;
+	background: #f8f8f8;
+	}
+
+.comments_list li li {
+	margin: 15px 0 0 0;
+	}
+
+.comments_list li.thread-even {
+	background: #fff;
+	}
+
+.comments_list .even {
+	background: #fff;
+	}
+
+.comments_list .alt {
+	background: #f8f8f8;
+	}
+
+.comment_ava{
+	float: left;
+	padding: 0 10px 0 0;
+	}
+
+.comment_top{
+	padding: 0 0 10px 0;
+	}
+
+.comment_a{
+	font-weight: bold;
+	}
+
+.comment_d{
+	font-style: italic;
+	}
+
+.comment_repl{
+	text-align: right;
+	}
+
+#respond{
+	padding: 15px;
+	border: 1px solid #ddd;
+	background: #eee;
+	margin: 0 0 15px 0;
+	}
+
+.comments_list #respond{
+	margin: 0 15px 15px 15px;
+	}
+
+#cancel-comment-reply-link{
+	display: inline-block;
+	margin: 0 0 15px 0;
+	}
+
+/* END COMMENTS */
+
+
+/* WP OTHER */
+
+.wp-caption {
+	box-sizing: border-box;
+	max-width: 100%;
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 3px;
+	}
+
+.wp-caption img {
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+	}
+
+.wpcf7-not-valid {
+	border-color: #ad2929 !important;
+	color: #ad2929;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff;
+	}
+
+/* END WP OTHER */
+
+body::after{
+	position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+	content:url(https://boshcare.ru/wp-content/themes/repairbosch/images/drop3.svg) url('https://boshcare.ru/wp-content/themes/repairbosch/images/prev2.svg');
+	}

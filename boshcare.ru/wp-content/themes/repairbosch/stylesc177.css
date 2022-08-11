@@ -1,0 +1,115 @@
+.more_link a{
+    color: #132936;
+}
+
+.more_link a:hover{
+    color: #EC1B24;   
+}
+
+.more_text{
+    display: none;
+}
+
+.red_form_c form{
+    position: relative;
+}
+
+.wpcf7 form .wpcf7-response-output{
+    border: none;
+    padding: 0;
+    margin: 10px 0 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    min-height: 17px;
+    display: block !important;
+}
+
+.wpcf7-not-valid-tip{
+    display: none !important;
+}
+
+.bg2--pt{
+    padding-top: 110px;
+}
+
+.bot_zz .btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+@media(max-width: 1450px){
+    .models-list{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .models-list-item {
+        padding: 0 6px;
+        margin-bottom: 12px;
+    }
+    .bg2--pt{
+        padding-top: 90px;
+    }
+}
+/*1450*/
+
+@media(max-width: 1270px){
+    .models-list-item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .bg2--pt{
+        padding-top: 70px;
+    }
+}
+/*1270*/
+
+@media(min-width: 760px) and (max-width: 1270px){
+    .akciya_img img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 1020px){
+    .models-list-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .bg2--pt{
+        padding-top: 50px;
+    }
+}
+/*1020*/
+
+@media(max-width: 759px){
+    .district_ico {
+        height: 200px;
+    }
+    .bg2--pt{
+        padding-top: 30px;
+    }
+    .bot_zz .btn{
+        display: inline-block;
+        min-width: 250px;
+    }
+}
+/*759*/
+
+@media(max-width: 630px){
+    .models-list-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/*630*/
+
+@media(max-width: 617px){
+	.top_adr {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+/*617*/

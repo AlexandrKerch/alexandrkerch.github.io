@@ -1,0 +1,407 @@
+.wrap {
+	width: 1200px;
+	}
+
+.on980, .only980 {display: block;}
+.hide980 {display: none;}
+
+
+.slide_cont {
+	padding: 80px 50% 48px 70px;
+	background-size: 50% auto !important;
+	}
+
+body.single-service .slide{
+    overflow: hidden;
+}
+body.single-service .slide_cont{
+    background-size: auto !important;
+}
+
+.slide_time {
+	top: 60px;
+	right: 350px;
+	}
+
+.slide_time_r {
+	right: 50px;
+	}
+
+.slide_cont_wrapper{
+    background-color: rgba(19,41,54,0.5);
+    padding: 10px;
+}
+.preims {
+	padding: 20px 0 90px 0;
+	}
+
+.preim {
+	width: 23%;
+	}
+
+
+.blue_text {
+	padding: 90px 0 60px 0;
+	}
+
+
+.faults_pad {
+	padding: 90px 0;
+	}
+
+.bge2 {
+	background-position: 49% 80px;
+	}
+
+.faults_top {
+	padding: 0 0 40px 0;
+	}
+
+.fault {
+	width: 290px;
+	padding: 15px;
+	margin: 0 0 30px 0;
+	}
+
+
+.advants {
+	padding: 80px 0;
+	}
+
+.advant span {
+	font-size: 19px;
+	line-height: 24px;
+	}
+
+
+.shema {
+	padding: 90px 0;
+	}
+
+.shema_l {
+	width: 500px;
+	}
+
+.steps {
+	width: 670px;
+	}
+
+.shema_img_b {
+	right: -17px;
+	}
+
+
+.red_form_pad {
+	padding: 0 0 90px 0;
+	}
+
+.red_form {
+	padding: 50px 60px;
+	}
+
+.red_form_l {
+	width: 380px;
+	}
+
+.red_form_c {
+	width: 300px;
+	}
+
+.red_form_r {
+	width: 380px;
+	}
+
+
+.masters {
+	padding: 90px 0;
+	}
+
+.masters_top {
+	padding: 0 0 40px 0;
+	}
+
+
+.demos {
+	padding: 90px 0;
+	}
+
+.demos_top {
+	padding: 0 0 40px 0;
+	}
+
+
+.model {
+	width: 290px;
+	height: 360px;
+	padding: 20px;
+	}
+
+
+.bge6 {
+	background-position: 60% 90px;
+	}
+
+.districts_pad {
+	padding: 90px 0 70px 0;
+	}
+
+.districts_top {
+	padding: 0 0 40px 0;
+	}
+
+
+.districts a {
+	padding: 15px 24px;
+	font-size: 20px;
+	}
+
+
+.prices {
+	padding: 90px 0;
+	}
+
+.prices_top {
+	padding: 0 0 40px 0;
+	}
+
+.tabs li {
+	padding: 0 30px 0 0;
+	}
+
+.tabs li a {
+	font-size: 32px;
+	line-height: 40px;
+	}
+
+.tabs li a:before {
+	height: 5px;
+	bottom: -9px;
+	}
+
+
+.price {
+	padding: 20px 25px;
+	font-size: 19px;
+	}
+
+.price_p {
+	width: 140px;
+	}
+
+.price_zak {
+	right: 208px;
+	}
+
+
+.serts {
+	padding: 90px 0;
+	}
+
+.serts_l {
+	width: 400px;
+	}
+
+.serts_slider {
+	width: 760px;
+	}
+
+.serts_slide img {
+	max-width: 240px;
+	}
+
+
+.serts_slider .slick-arrow{
+	top: 50%;
+	bottom: auto;
+	}
+
+.serts_slider .slick-prev{
+	left: 10px;
+	}
+
+.serts_slider .slick-next{
+	left: auto;
+	}
+
+
+.rews {
+	padding: 90px 0;
+	}
+
+.rews_top {
+	padding: 0 0 40px 0;
+	}
+
+.rews_slider .slick-slide {
+	margin: 0 15px;
+	}
+
+.rews_slider .slick-list {
+	margin: 0 -15px;
+	}
+
+
+.models_pad {
+	padding: 90px 0 70px 0;
+	}
+
+.models_top {
+	padding: 0 0 40px 0;
+	}
+
+
+.models_lists a {
+	padding: 20px;
+	font-size: 19px;
+	}
+
+
+.map_pad {
+	padding: 90px 0 60px 0;
+	}
+
+
+
+.breadc {
+	padding: 0 0 50px 0;
+	}
+
+.content {
+	padding: 0 0 60px 0;
+	}
+
+
+
+.akcii {
+	padding: 90px 0;
+	}
+
+.akcii_top {
+	padding: 0 0 40px 0;
+	}
+
+.akcii_slider .slick-slide {
+	margin: 0 10px;
+	}
+
+.akcii_slider .slick-list {
+	margin: 0 -10px;
+	}
+
+.akciya_img {
+	min-width: 200px;
+	margin: 0 0 0 30px;
+	}
+
+
+.bot_text {
+	padding: 90px 0 60px 0;
+	}
+
+
+.service_price {
+	margin: 0 0 10px 0;
+	padding: 40px 50px;
+	}
+
+.service_price_go {
+	margin: 0 0 0 20px;
+	}
+
+
+.polomki_pad {
+	padding: 90px 0;
+	}
+
+.polomki_pad .title {
+	margin: 0 0 40px 0;
+	}
+
+.polomki {
+	padding: 0 0 40px 0;
+	}
+
+.polomki a {
+	width: 18%;
+	margin: 0 0 25px 0;
+	}
+
+
+.polomki_no {
+	padding: 50px 70px;
+	}
+
+
+.more_services_pad {
+	padding: 90px 0 60px 0;
+	}
+
+.more_services_top {
+	padding: 0 0 40px 0;
+	}
+
+
+.more_service {
+	padding: 30px 20px;
+	}
+
+
+.district_bot {
+	padding: 90px 0;
+	}
+
+
+.contacts {
+	padding: 90px 0 70px 0;
+	}
+
+.contacts .title {
+	margin: 0 0 40px 0;
+	}
+
+
+.contacts_map {
+	padding: 80px 0 60px 0;
+	}
+
+.contacts_map .title {
+	margin: 0 0 40px 0;
+	}
+
+
+
+.footer_l{
+	width: 200px;
+	}
+
+.pays{
+	flex-wrap: wrap;
+	margin: -4px 0 20px 0;
+	}
+
+.pays img{
+	vertical-align: bottom;
+	margin: 0 10px 10px 0;
+	}
+
+.nav_bot{
+	width: 200px;
+	}
+
+.nav_bot_big{
+	width: 450px;
+	}
+
+.nav_bot_c{
+	width: 230px;
+	}
+
+.bot_zz .btn {
+    padding: 15px 20px;
+	}
+
+
+.modal_win{
+	width: 540px;
+	padding: 40px 70px;
+	}
